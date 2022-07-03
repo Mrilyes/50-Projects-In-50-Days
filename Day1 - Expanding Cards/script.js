@@ -1,7 +1,7 @@
 const panels = document.querySelectorAll('.panel')
 const container = document.querySelector('.container')
 
-console.log(panels)
+// console.log(panels)
 
 panels.forEach((p) => {
   p.addEventListener('click', function (e) {

@@ -78,7 +78,7 @@ body {
   padding: 8px 30px;
   margin: 10px;
   font-size: 14px;
-  transition: box-shadow 0.3s ease;
+  /* transition: box-shadow 0.3s ease; */
 }
 .btn:active {
   transform: scale(0.98);
@@ -90,5 +90,5 @@ body {
 }
 .btn:disabled {
   background-color: var(--whiteline);
-  /* cursor: not-allowed; */
+  cursor: not-allowed;
 }

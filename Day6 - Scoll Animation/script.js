@@ -2,7 +2,7 @@ const boxes = document.querySelectorAll('.box')
 
 window.addEventListener('scroll', checkBoxes)
 
-checkBoxes()
+checkBoxes() // to get the first boxes on the windows
 
 function checkBoxes() {
   const triggerButtom = (window.innerHeight / 5) * 4
